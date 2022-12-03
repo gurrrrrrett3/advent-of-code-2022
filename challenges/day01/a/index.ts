@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const input = fs.readFileSync(path.resolve('./challenges/day01/a/input.txt'), 'utf-8');
+const input = fs.readFileSync(path.resolve('./challenges/day01/input.txt'), 'utf-8');
 
 const data = input.split("\n\n").map((group) => {
     return group.split("\n").map((cals) => {

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const input = fs.readFileSync(path.resolve("./challenges/day02/a/input.txt"), "utf-8");
+const input = fs.readFileSync(path.resolve("./challenges/day02/input.txt"), "utf-8");
 
 const legend = {
   against: {
