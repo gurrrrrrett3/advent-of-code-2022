@@ -1,1 +1,1 @@
-import "./challenges/day05/b"
+import "./challenges/day06/b"
